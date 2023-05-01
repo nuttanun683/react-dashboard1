@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Chart from "react-apexcharts";
 
+
+
 function App() {
   const [stockMarketsprices, setstockMarketsprice] = useState([])
   const [stockMarketsChart, setstockMarketsCharts] = useState({
